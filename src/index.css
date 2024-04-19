@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'Black';
+  src: local('Helvetica'), url(./helvetica-255/Helvetica-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: local('Helvetica'), url(./helvetica-255/Helvetica.ttf) format('truetype');
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
